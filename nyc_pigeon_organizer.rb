@@ -9,8 +9,9 @@ def nyc_pigeon_organizer(data)
           final_array = {}
            # binding.pry
         end
+        binding.pry
         if !final_array[name][key]
-          binding.pry
+          
           !final_array[name][key]=[]
         end
         final_array[name][key].push(inner_key)
